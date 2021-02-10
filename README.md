@@ -17,4 +17,4 @@ As it stands, `jsx` needs to be explicitly imported to the consuming `tsx` file.
 yarn esbuild --inject:./jsx-shim.js src/test-app/index.tsx
 ```
 
-but, snowpack doesn't support this option yet ([issue #1469](https://github.com/snowpackjs/snowpack/discussions/1469) and [issue #1122](https://github.com/snowpackjs/snowpack/issues/1122))
+but, snowpack doesn't support this option yet ([discussion #1469](https://github.com/snowpackjs/snowpack/discussions/1469) and [issue #1122](https://github.com/snowpackjs/snowpack/issues/1122)). Injection can be done by manually calling `esbuild` with `@snowpack/plugin-runscript`, but I haven't tried that yet.
