@@ -20,6 +20,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    jsxFactory: "jsx",
+    jsxFragment: "null",
   },
 };

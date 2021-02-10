@@ -10,9 +10,3 @@ As this code stands, there is are two compile errors:
   src/test-app/index.tsx(11,16): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
   src/test-app/index.tsx(11,35): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
 ```
-
-and a runtime error
-
-```
-ReferenceError: React is not defined
-```
