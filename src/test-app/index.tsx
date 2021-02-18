@@ -1,5 +1,7 @@
 import { Component, jsx } from "panel";
 
+import "./style.css";
+
 export class TestApp extends Component<EmptyObj, EmptyObj> {
   get config() {
     return {
@@ -8,7 +10,11 @@ export class TestApp extends Component<EmptyObj, EmptyObj> {
       helpers: {},
 
       template: () => {
-        return <h1>There you are!!</h1>;
+        return (
+          <div>
+            <h1>There you are foo</h1>
+          </div>
+        );
       },
     };
   }
